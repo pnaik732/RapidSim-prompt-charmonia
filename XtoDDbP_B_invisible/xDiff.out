@@ -1,0 +1,60 @@
+6c6
+< INFO in RapidConfig::loadDecay : loading decay descriptor from file: XtoDDbP_B_invisible-VVS-S-Dst0-noFSR.decay
+---
+> INFO in RapidConfig::loadDecay : loading decay descriptor from file: XtoDDbP_B_invisible-VVS-S-Dst0.decay
+22c22
+< INFO in RapidConfig::loadConfig : attempting to load configuration from file: XtoDDbP_B_invisible-VVS-S-Dst0-noFSR.config
+---
+> INFO in RapidConfig::loadConfig : attempting to load configuration from file: XtoDDbP_B_invisible-VVS-S-Dst0.config
+27a28
+> INFO in RapidConfig::configGlobal : external EvtGen generator will use PHOTOS.
+144c145
+<  |  |   P       Y      T    H   H  III  A   A    Now is 13 Jun 2020 at 22:25:08    |  | 
+---
+>  |  |   P       Y      T    H   H  III  A   A    Now is 10 Aug 2019 at 05:23:34    |  | 
+214c215
+<  |  |   P       Y      T    H   H  III  A   A    Now is 13 Jun 2020 at 22:25:08    |  | 
+---
+>  |  |   P       Y      T    H   H  III  A   A    Now is 10 Aug 2019 at 05:23:34    |  | 
+282c283
+< INFO in RapidExternalEvtGen::writeDecFile : Writing EvtGen DEC file : XtoDDbP_B_invisible-VVS-S-Dst0-noFSR.DEC
+---
+> INFO in RapidExternalEvtGen::writeDecFile : Writing EvtGen DEC file : XtoDDbP_B_invisible-VVS-S-Dst0.DEC
+284,285c285,286
+< EvtGen:In readDecayFile, reading:XtoDDbP_B_invisible-VVS-S-Dst0-noFSR.DEC
+< EvtGen:As requested, PHOTOS will be turned off.
+---
+> EvtGen:In readDecayFile, reading:XtoDDbP_B_invisible-VVS-S-Dst0.DEC
+> EvtGen:As requested, PHOTOS will be turned on for all decays.
+296,297c297,298
+<   4	D0B            	  -421		1.864830	X_3872         	 2		Kp, pim        
+<   5	D0             	   421		1.864830	Dst0           	 2		Km, pip        
+---
+>   4	D0B            	  -421		1.864830	X_3872         	 2		K+, pi-        
+>   5	D0             	   421		1.864830	Dst0           	 2		K-, pi+        
+299,302c300,303
+<   7	Kp             	   321		0.493677	D0B            	 0		---            
+<   8	pim            	  -211		0.139570	D0B            	 0		---            
+<   9	Km             	  -321		0.493677	D0             	 0		---            
+<  10	pip            	   211		0.139570	D0             	 0		---            
+---
+>   7	K+             	   321		0.493677	D0B            	 0		---            
+>   8	pi-            	  -211		0.139570	D0B            	 0		---            
+>   9	K-             	  -321		0.493677	D0             	 0		---            
+>  10	pi+            	   211		0.139570	D0             	 0		---            
+357c358
+< INFO in RapidHistWriter::setupTree : tree will be saved to file: XtoDDbP_B_invisible-VVS-S-Dst0-noFSR_tree.root
+---
+> INFO in RapidHistWriter::setupTree : tree will be saved to file: XtoDDbP_B_invisible-VVS-S-Dst0_tree.root
+360c361
+< INFO in RapidHistWriter::save : saving histograms to file: XtoDDbP_B_invisible-VVS-S-Dst0-noFSR_hists.root
+---
+> INFO in RapidHistWriter::save : saving histograms to file: XtoDDbP_B_invisible-VVS-S-Dst0_hists.root
+362,364c363,365
+< INFO in rapidSim : Selected 135288
+< INFO in rapidSim : 0.239 seconds to initialise.
+< INFO in rapidSim : 63.289 seconds to generate.
+---
+> INFO in rapidSim : Selected 134822
+> INFO in rapidSim : 0.527 seconds to initialise.
+> INFO in rapidSim : 152.874 seconds to generate.

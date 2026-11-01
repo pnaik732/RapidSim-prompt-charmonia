@@ -1,0 +1,119 @@
+# X(3872) decays to (Dst0b D0)_{L=2} decay, where Dst0b -> (D0B gamma)_{L=1}
+
+geometry : LHCb
+acceptance : AllIn
+energy : 14
+parent : b
+useEvtGen : TRUE
+evtGenUsePHOTOS : TRUE
+#paramsDecaying : M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, theta, costheta, Mcorr, ProbNNpi, ProbN$
+#paramsStable : M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, theta, costheta, Mcorr, ProbNNpi, ProbNNk
+#paramsTwoBody : M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, theta, costheta, Mcorr, ProbNNpi, ProbNNk
+paramsDecaying : M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, Mcorr
+paramsStable : MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, eta, phi, y, gamma, beta, ProbNNpi, ProbNNk
+paramsTwoBody : M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, Mcorr
+
+param : D0_D0B_M M 5 4
+param : D0_D0B_M_TRUE M 5 4 TRUE
+param : D0_D0B_M2 M2 5 4
+param : D0_D0B_M2_TRUE M2 5 4 TRUE
+param : D0_D0B_MT MT 5 4
+param : D0_D0B_MT_TRUE MT 5 4 TRUE
+param : D0_D0B_ET ET 5 4
+param : D0_D0B_ET_TRUE ET 5 4 TRUE
+param : D0_D0B_FD FD 5 4
+param : D0_D0B_FD_TRUE FD 5 4 TRUE
+param : D0_D0B_eta eta 5 4
+param : D0_D0B_eta_TRUE eta 5 4 TRUE
+param : D0_D0B_phi phi 5 4   
+param : D0_D0B_phi_TRUE phi 5 4 TRUE
+param : D0_D0B_y y 5 4
+param : D0_D0B_y_TRUE y 5 4 TRUE
+param : D0_D0B_gamma gamma 5 4
+param : D0_D0B_gamma_TRUE gamma 5 4 TRUE
+param : D0_D0B_beta beta 5 4
+param : D0_D0B_beta_TRUE beta 5 4 TRUE
+param : D0_D0B_Mcorr Mcorr 5 4
+param : D0_D0B_Mcorr_TRUE Mcorr 5 4 TRUE
+        
+# X(3872) decay helicity angles [not useful if we can't see the gamma]
+#param : D0_gamma_costheta_REST_D0_D0B costheta 5 6 5 4
+#param : gamma_D0B_costheta_REST_D0_gamma costheta 6 4 5 6
+#param : D0_D0B_costheta_REST_D0B_gamma costheta 5 4 4 6
+#param : D0_gamma_costheta_REST_D0_D0B_TRUE costheta 5 6 5 4 TRUE
+#param : gamma_D0B_costheta_REST_D0_gamma_TRUE costheta 6 4 5 6 TRUE
+#param : D0_D0B_costheta_REST_D0B_gamma_TRUE costheta 5 4 4 6 TRUE
+
+# separate X(3872) from psi(3770)
+param : Km_D0B_costheta_REST_D0 costheta 9 4 9 10
+param : Km_D0B_theta_REST_D0 theta 9 4 9 10
+param : Kp_D0_costheta_REST_D0B costheta 7 5 7 8
+param : Kp_D0_theta_REST_D0B theta 7 5 7 8
+param : Km_D0B_costheta_REST_D0_TRUE costheta 9 4 9 10 TRUE
+param : Km_D0B_theta_REST_D0_TRUE theta 9 4 9 10 TRUE
+param : Kp_D0_costheta_REST_D0B_TRUE costheta 7 5 7 8 TRUE
+param : Kp_D0_theta_REST_D0B_TRUE theta 7 5 7 8 TRUE
+
+# DDbar in its rest frame angle
+param : D0_D0B_costheta_REST_D0_D0B costheta 5 4 5 4
+param : D0_D0B_theta_REST_D0_D0B theta 5 4 5 4
+param : D0_D0B_costheta_REST_D0_D0B_TRUE costheta 5 4 5 4 TRUE
+param : D0_D0B_theta_REST_D0_D0B_TRUE theta 5 4 5 4 TRUE
+
+# DDbar angle in the X frame [not possible without the light neutral]
+#param : D0_D0B_costheta_REST_X costheta 5 4 5 4 6
+#param : D0_D0B_theta_REST_X theta 5 4 5 4 6
+#param : D0_D0B_costheta_REST_X_TRUE costheta 5 4 5 4 6 TRUE
+#param : D0_D0B_theta_REST_X_TRUE theta 5 4 5 4 6 TRUE
+
+# real B helicity B -> X K [not possible without the light neutral]
+#param : D0_bachKp_costheta_REST_X costheta 5 2 5 4 6
+#param : D0_bachKp_theta_REST_X theta 5 2 5 4 6
+#param : D0_bachKp_costheta_REST_X_TRUE costheta 5 2 5 4 6 TRUE
+#param : D0_bachKp_theta_REST_X_TRUE theta 5 2 5 4 6 TRUE
+
+# B helicity (to separate ?={X,psi} in B -> ? K )
+param : D0_bachKp_costheta_REST_D0_D0B costheta 5 2 5 4
+param : D0_bachKp_theta_REST_D0_D0B theta 5 2 5 4
+param : D0_bachKp_costheta_REST_D0_D0B_TRUE costheta 5 2 5 4 TRUE
+param : D0_bachKp_theta_REST_D0_D0B_TRUE theta 5 2 5 4 TRUE
+
+# B+ -> { X_1(3872) -> { D*0 -> {D0 -> K- pi+} gamma } {D0b -> K+ pi-} } K+
+
+@0
+        name : Bp
+        evtGenModel : SVS
+@1
+	name : X_3872
+	evtGenModel : VVS_PWAVE       0.0 0.0 0.0 0.0 1.0 0.0;
+@2
+        name : bachKp 
+        smear : LHCbGeneric
+        smear : LHCbGenericIP
+@3
+        name : Dst0
+        evtGenModel : VSP_PWAVE
+@4
+	name : D0B
+@5
+	name : D0
+@6
+	name : gamma
+	smear : LHCbPhoton
+        invisible: true
+@7
+	name : K+
+	smear : LHCbGeneric
+        smear : LHCbGenericIP
+@8
+	name : pi-
+	smear : LHCbGeneric
+        smear : LHCbGenericIP
+@9
+	name : K-
+	smear : LHCbGeneric
+        smear : LHCbGenericIP
+@10
+	name : pi+
+	smear : LHCbGeneric
+        smear : LHCbGenericIP

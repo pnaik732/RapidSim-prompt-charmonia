@@ -1,0 +1,23 @@
+
+Processing makePlots_Friend.C("psiToDDb_tree_friend.root","RapidSim_psiToDDb_VSS_plots_Friend.pdf")...
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_D_X correlation: -0.000551015
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_Db_Lab correlation: 0.802569
+TRUE_DmDb_pT_D_X:TRUE_DmDb_pT_Db_Lab correlation: -0.00136883
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_Db_X correlation: -0.000550955
+TRUE_DmDb_pT_D_X:TRUE_DmDb_pT_Db_X correlation: 1
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_pT_Db_X correlation: -0.00136872
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_DDb correlation: 0.93008
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_DDb correlation: -0.00439679
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_DDb correlation: 0.931161
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_DDb correlation: -0.00439671
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_Lab correlation: 0.231543
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_Lab correlation: 0.279
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_Lab correlation: 0.235001
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_Lab correlation: 0.279
+TRUE_DmDb_p_DDb:TRUE_DmDb_p_Lab correlation: 0.321639
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_X correlation: 0.93008
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_X correlation: -0.00439679
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_X correlation: 0.931161
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_X correlation: -0.00439671
+TRUE_DmDb_p_DDb:TRUE_DmDb_p_X correlation: 1
+TRUE_DmDb_p_Lab:TRUE_DmDb_p_X correlation: 0.321639

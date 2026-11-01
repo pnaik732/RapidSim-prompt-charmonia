@@ -1,0 +1,28 @@
+
+Processing makePlots.C("XtoDDbP_B_invisible_tree.root","RapidSim_XtoDDbP_B_invisible_PHSP_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.980138
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.979732
+
+Processing makePlots.C("XtoDDbP_B_invisible-model-S_tree.root","RapidSim_XtoDDbP_B_invisible_Model_S_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.963189
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.96001
+
+Processing makePlots.C("XtoDDbP_B_invisible-model-D_tree.root","RapidSim_XtoDDbP_B_invisible_Model_D_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.976232
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.974533
+
+Processing makePlots.C("XtoDDbP_B_invisible-VVS-S-Dst0_tree.root","RapidSim_XtoDDbP_B_invisible-VVS-S-Dst0_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.96074
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.958017
+
+Processing makePlots.C("XtoDDbP_B_invisible-VVS-S-Dst0b_tree.root","RapidSim_XtoDDbP_B_invisible-VVS-S-Dst0b_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.961079
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.958338
+
+Processing makePlots.C("XtoDDbP_B_invisible-VVS-D-Dst0_tree.root","RapidSim_XtoDDbP_B_invisible-VVS-D-Dst0_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.945235
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.944001
+
+Processing makePlots.C("XtoDDbP_B_invisible-VVS-D-Dst0b_tree.root","RapidSim_XtoDDbP_B_invisible-VVS-D-Dst0b_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.944848
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.943549

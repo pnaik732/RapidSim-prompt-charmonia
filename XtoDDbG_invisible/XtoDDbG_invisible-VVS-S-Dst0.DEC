@@ -1,0 +1,16 @@
+yesPhotos
+
+Decay X_1(3872)
+1.00	D*0	anti-D0	VVS_PWAVE       1.0 0.0 0.0 0.0 0.0 0.0;;
+Enddecay
+Decay D*0
+1.00	D0	gamma	VSP_PWAVE;
+Enddecay
+Decay anti-D0
+1.00	K+	pi-	PHSP;
+Enddecay
+Decay D0
+1.00	K-	pi+	PHSP;
+Enddecay
+End
+

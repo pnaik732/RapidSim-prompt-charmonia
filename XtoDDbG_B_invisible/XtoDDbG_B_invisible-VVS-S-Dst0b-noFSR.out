@@ -1,0 +1,356 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+INFO in RapidConfig::loadDecay : loading decay descriptor from file: XtoDDbG_B_invisible-VVS-S-Dst0b-noFSR.decay
+INFO in RapidConfig::loadDecay : Decay descriptor is:
+                                 B+ -> {X_1(3872) -> { D*0b -> {D0b -> K+ pi-} gamma } {D0 -> K- pi+}} K+
+INFO in RapidParticleData::loadData : loading particle data from /Users/pnaik/work/RapidSim/RapidSim/config/particles.dat
+INFO in RapidConfig::loadDecay : Found sub-decay:
+                                 X_1(3872) -> { D*0b -> {D0b -> K+ pi-} gamma } {D0 -> K- pi+}
+INFO in RapidConfig::loadDecay : Parent has beauty.
+                                 setting b-quark kinematics.
+INFO in RapidConfig::loadDecay : Found sub-decay:
+                                 D*0b -> {D0b -> K+ pi-} gamma
+INFO in RapidConfig::loadDecay : Found sub-decay:
+                                 D0 -> K- pi+
+INFO in RapidConfig::loadDecay : Found sub-decay:
+                                 D0b -> K+ pi-
+INFO in RapidConfig::loadConfig : attempting to load configuration from file: XtoDDbG_B_invisible-VVS-S-Dst0b-noFSR.config
+INFO in RapidConfig::configGlobal : setting detector geometry type to LHCb.
+INFO in RapidConfig::configGlobal : setting acceptance type to AllIn.
+INFO in RapidConfig::configGlobal : pp CoM energy set to be 14 TeV.
+INFO in RapidConfig::configGlobal : parent flavour forced to be b.
+INFO in RapidConfig::configGlobal : will use external EvtGen generator to decay particles.
+INFO in RapidConfig::configGlobal : will use the following parameters for all decaying particles:
+                                    M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, Mcorr, vtxX, vtxY, vtxZ, origX, origY, origZ.
+INFO in RapidConfig::configGlobal : will use the following parameters for all stable particles:
+                                    MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, eta, phi, y, gamma, beta, ProbNNpi, ProbNNk.
+INFO in RapidConfig::configGlobal : will use the following parameters for all two-body daughter combinations:
+                                    M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, Mcorr.
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M2
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M2_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_MT
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_MT_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_ET
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_ET_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_FD
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_FD_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_eta
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_eta_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_phi
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_phi_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_y
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_y_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_gamma
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_gamma_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_beta
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_beta_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_Mcorr
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_Mcorr_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_costheta_REST_D0
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_theta_REST_D0
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_costheta_REST_D0B
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_theta_REST_D0B
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_costheta_REST_D0_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_theta_REST_D0_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_costheta_REST_D0B_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_theta_REST_D0B_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_bachKp_costheta_REST_D0_D0B
+INFO in RapidConfig::configGlobal : adding parameter D0_bachKp_theta_REST_D0_D0B
+INFO in RapidConfig::configGlobal : adding parameter D0_bachKp_costheta_REST_D0_D0B_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_bachKp_theta_REST_D0_D0B_TRUE
+INFO in RapidConfig::configParticle : set EvtGen decay model for particle Bp
+                                    : SVS
+INFO in RapidConfig::configParticle : set EvtGen decay model for particle X_3872
+                                    : VVS_PWAVE       1.0 0.0 0.0 0.0 0.0 0.0;
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 2 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 2 (category: LHCbGenericIP)
+INFO in RapidConfig::configParticle : set EvtGen decay model for particle Dst0b
+                                    : VSP_PWAVE
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 6 (category: LHCbPhoton)
+INFO in RapidConfig::loadSmearing : load photon smearing for particle 
+INFO in RapidConfig::loadSmearing : load photon smearing for particle 
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 7 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 7 (category: LHCbGenericIP)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 8 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 8 (category: LHCbGenericIP)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 9 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 9 (category: LHCbGenericIP)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 10 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 10 (category: LHCbGenericIP)
+INFO in RapidConfig::loadConfig : finished loading configuration.
+INFO in RapidConfig::load : invisible daughter found.
+                            Adding corrected mass variable for parent particle.
+INFO in RapidConfig::load : initialising external generator.
+INFO in RapidExternalEvtGen::setupGenerator : Setting up external EvtGen generator.
+EvtGen:Defining EvtPhotosEngine using photonType = gamma
+EvtGen:Setting up PHOTOS.
+Message from PHCORK(MODCOR):: initialization
+MODOP=5 -- corrects Energy from mass+flow
+
+********************************************************************************
+
+                            =========================
+                              PHOTOS, Version:  3.61
+                              Released at:  29/9/15
+                            =========================
+
+                     Photos QED corrections in Particle Decays
+
+           Monte Carlo Program - by E. Barberio, B. van Eijk and Z. Was
+           From version 2.09   - by P. Golonka and Z. Was
+           From version 3.00   - by N. Davidson, T. Przedzinski and Z. Was
+********************************************************************************
+
+                  Internal (default) input parameters: 
+
+                    INTERF= 1 ISEC= 0 ITRE= 0 IEXP= 1 IFTOP= 1 IFW= 1
+                    ALPHA_QED= 0x1.de3d3945c2bf2p-8 XPHCUT= 0x1.ad7f29abcaf48p-24
+
+                    Option with interference is active
+                    Option with exponentiation is active EPSEXP=0x1.a36e2eb1c432dp-14
+                    Emision in t tbar production is active
+                    Correction wt in decay of W is active
+
+          WARNING:  /HEPEVT/ is not anymore used.
+
+********************************************************************************
+MODOP=2 -- blocks emission in Kl  to gamma e+e-: DEFAULT
+MODOP=2 -- blocks emission in pi0 to gamma e+e-: DEFAULT
+ IPHQRK_setQarknoEmission MODOP=1 -- blocks emission from light quarks:  DEFAULT
+Message from PHCORK(MODCOR):: initialization
+MODOP=5 -- corrects Energy from mass+flow
+EvtGen:Defining EvtPythiaEngine: data tables defined in /Users/pnaik/work/EvtGen/EvtGen/external/pythia8230/share/Pythia8/xmldoc
+EvtGen:Pythia 6 codes in decay files will be converted to Pythia 8 codes
+EvtGen:Creating generic Pythia generator
+
+ *------------------------------------------------------------------------------------* 
+ |                                                                                    | 
+ |  *------------------------------------------------------------------------------*  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  | 
+ |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.230      |  | 
+ |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change:  6 Oct 2017  |  | 
+ |  |   P       Y      T    H   H   I   A   A                                      |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 13 Jun 2020 at 22:17:31    |  | 
+ |  |                                                                              |  | 
+ |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: christian.bierlich@thep.lu.se                                   |  | 
+ |  |   Nishita Desai;  Laboratoire Charles Coulomb (L2C),                         |  | 
+ |  |      CNRS-Universite de Montpellier, 34090 Montpellier, France;              |  | 
+ |  |      e-mail: nishita.desai@umontpellier.fr                                   |  | 
+ |  |   Nadine Fischer;  School of Physics,                                        |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: nadine.fischer@monash.edu                                       |  | 
+ |  |   Ilkka Helenius;  Institute for Theoretical Physics,                        |  | 
+ |  |     Tuebingen University, Auf der Morgenstelle 14, 72076 Tuebingen, Germany; |  | 
+ |  |      e-mail: ilkka.helenius@uni-tuebingen.de                                 |  | 
+ |  |   Philip Ilten;  School of Physics and Astronomy,                            |  | 
+ |  |      University of Birmingham, Birmingham, B152 2TT, UK;                     |  | 
+ |  |      e-mail: philten@cern.ch                                                 |  | 
+ |  |   Leif Lonnblad;  Department of Astronomy and Theoretical Physics,           |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: leif.lonnblad@thep.lu.se                                        |  | 
+ |  |   Stephen Mrenna;  Computing Division, Simulations Group,                    |  | 
+ |  |      Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA;  |  | 
+ |  |      e-mail: mrenna@fnal.gov                                                 |  | 
+ |  |   Stefan Prestel;  Theoretical Physics Department,                           |  | 
+ |  |      Fermi National Accelerator Laboratory, MS 106, Batavia, IL 60510, USA;  |  | 
+ |  |      e-mail: sprestel@fnal.gov                                               |  | 
+ |  |   Christine O. Rasmussen;  Department of Astronomy and Theoretical Physics,  |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: christine.rasmussen@thep.lu.se                                  |  | 
+ |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: torbjorn@thep.lu.se                                             |  | 
+ |  |   Peter Skands;  School of Physics,                                          |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: peter.skands@monash.edu                                         |  | 
+ |  |                                                                              |  | 
+ |  |   The main program reference is 'An Introduction to PYTHIA 8.2',             |  | 
+ |  |   T. Sjostrand et al, Comput. Phys. Commun. 191 (2015) 159                   |  | 
+ |  |   [arXiv:1410.3012 [hep-ph]]                                                 |  | 
+ |  |                                                                              |  | 
+ |  |   The main physics reference is the 'PYTHIA 6.4 Physics and Manual',         |  | 
+ |  |   T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026 [hep-ph/0603175]  |  | 
+ |  |                                                                              |  | 
+ |  |   An archive of program versions and documentation is found on the web:      |  | 
+ |  |   http://www.thep.lu.se/Pythia                                               |  | 
+ |  |                                                                              |  | 
+ |  |   This program is released under the GNU General Public Licence version 2.   |  | 
+ |  |   Please respect the MCnet Guidelines for Event Generator Authors and Users. |  | 
+ |  |                                                                              |  | 
+ |  |   Disclaimer: this program comes without any guarantees.                     |  | 
+ |  |   Beware of errors and use common sense when interpreting results.           |  | 
+ |  |                                                                              |  | 
+ |  |   Copyright (C) 2017 Torbjorn Sjostrand                                      |  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  *------------------------------------------------------------------------------*  | 
+ |                                                                                    | 
+ *------------------------------------------------------------------------------------* 
+
+EvtGen:Creating alias Pythia generator
+
+ *------------------------------------------------------------------------------------* 
+ |                                                                                    | 
+ |  *------------------------------------------------------------------------------*  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  | 
+ |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.230      |  | 
+ |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change:  6 Oct 2017  |  | 
+ |  |   P       Y      T    H   H   I   A   A                                      |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 13 Jun 2020 at 22:17:32    |  | 
+ |  |                                                                              |  | 
+ |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: christian.bierlich@thep.lu.se                                   |  | 
+ |  |   Nishita Desai;  Laboratoire Charles Coulomb (L2C),                         |  | 
+ |  |      CNRS-Universite de Montpellier, 34090 Montpellier, France;              |  | 
+ |  |      e-mail: nishita.desai@umontpellier.fr                                   |  | 
+ |  |   Nadine Fischer;  School of Physics,                                        |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: nadine.fischer@monash.edu                                       |  | 
+ |  |   Ilkka Helenius;  Institute for Theoretical Physics,                        |  | 
+ |  |     Tuebingen University, Auf der Morgenstelle 14, 72076 Tuebingen, Germany; |  | 
+ |  |      e-mail: ilkka.helenius@uni-tuebingen.de                                 |  | 
+ |  |   Philip Ilten;  School of Physics and Astronomy,                            |  | 
+ |  |      University of Birmingham, Birmingham, B152 2TT, UK;                     |  | 
+ |  |      e-mail: philten@cern.ch                                                 |  | 
+ |  |   Leif Lonnblad;  Department of Astronomy and Theoretical Physics,           |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: leif.lonnblad@thep.lu.se                                        |  | 
+ |  |   Stephen Mrenna;  Computing Division, Simulations Group,                    |  | 
+ |  |      Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA;  |  | 
+ |  |      e-mail: mrenna@fnal.gov                                                 |  | 
+ |  |   Stefan Prestel;  Theoretical Physics Department,                           |  | 
+ |  |      Fermi National Accelerator Laboratory, MS 106, Batavia, IL 60510, USA;  |  | 
+ |  |      e-mail: sprestel@fnal.gov                                               |  | 
+ |  |   Christine O. Rasmussen;  Department of Astronomy and Theoretical Physics,  |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: christine.rasmussen@thep.lu.se                                  |  | 
+ |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: torbjorn@thep.lu.se                                             |  | 
+ |  |   Peter Skands;  School of Physics,                                          |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: peter.skands@monash.edu                                         |  | 
+ |  |                                                                              |  | 
+ |  |   The main program reference is 'An Introduction to PYTHIA 8.2',             |  | 
+ |  |   T. Sjostrand et al, Comput. Phys. Commun. 191 (2015) 159                   |  | 
+ |  |   [arXiv:1410.3012 [hep-ph]]                                                 |  | 
+ |  |                                                                              |  | 
+ |  |   The main physics reference is the 'PYTHIA 6.4 Physics and Manual',         |  | 
+ |  |   T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026 [hep-ph/0603175]  |  | 
+ |  |                                                                              |  | 
+ |  |   An archive of program versions and documentation is found on the web:      |  | 
+ |  |   http://www.thep.lu.se/Pythia                                               |  | 
+ |  |                                                                              |  | 
+ |  |   This program is released under the GNU General Public Licence version 2.   |  | 
+ |  |   Please respect the MCnet Guidelines for Event Generator Authors and Users. |  | 
+ |  |                                                                              |  | 
+ |  |   Disclaimer: this program comes without any guarantees.                     |  | 
+ |  |   Beware of errors and use common sense when interpreting results.           |  | 
+ |  |                                                                              |  | 
+ |  |   Copyright (C) 2017 Torbjorn Sjostrand                                      |  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  *------------------------------------------------------------------------------*  | 
+ |                                                                                    | 
+ *------------------------------------------------------------------------------------* 
+
+EvtGen:Initializing EvtGen
+EvtGen:Storing known decay models
+EvtGen:Defining EvtBcToNPi model: Bc -> V + npi and Bc -> P + npi decays
+from A.V. Berezhnoy, A.K. Likhoded, A.V. Luchinsky: Phys.Rev.D 82, 014012 (2010) and arXiV:1104.0808.
+EvtGen:Main decay file name  :/Users/pnaik/work/RapidSim/RapidSim/config/evtgen/DECAY.DEC
+EvtGen:PDT table file name   :/Users/pnaik/work/EvtGen/EvtGen/evtgen/evt.pdl
+EvtGen:In readDecayFile, reading:/Users/pnaik/work/RapidSim/RapidSim/config/evtgen/DECAY.DEC
+EvtGen:Mixing type integer set to 1
+EvtGen:Done initializing EvtGen
+INFO in RapidExternalEvtGen::writeDecFile : Writing EvtGen DEC file : XtoDDbG_B_invisible-VVS-S-Dst0b-noFSR.DEC
+INFO in RapidExternalEvtGen::setup : Setting decay for external EvtGen generator.
+EvtGen:In readDecayFile, reading:XtoDDbG_B_invisible-VVS-S-Dst0b-noFSR.DEC
+EvtGen:As requested, PHOTOS will be turned off.
+INFO in RapidParticleData::setupMass : resonance X_3872 is narrow (0.000 GeV) and will generated using a fixed mass.
+INFO in RapidParticleData::setupMass : resonance Dst0b is narrow (0.000 GeV) and will generated using a fixed mass.
+INFO in RapidDecay::setup : Particle summary follows:
+index	label		   ID		mass (GeV/c^2)	parent		# children	children
+  0	Bp             	   521		5.279310	---            	 2		X_3872, bachKp 
+  1	X_3872         	9920443		3.871690	Bp             	 2		Dst0b, D0      
+  2	bachKp         	   321		0.493677	Bp             	 0		---            
+  3	Dst0b          	  -423		2.006850	X_3872         	 2		D0B, gamma     
+  4	D0             	   421		1.864830	X_3872         	 2		Km, pip        
+  5	D0B            	  -421		1.864830	Dst0b          	 2		Kp, pim        
+  6	gamma          	    22		0.000000	Dst0b          	 0		---            
+  7	Km             	  -321		0.493677	D0             	 0		---            
+  8	pip            	   211		0.139570	D0             	 0		---            
+  9	Kp             	   321		0.493677	D0B            	 0		---            
+ 10	pim            	  -211		0.139570	D0B            	 0		---            
+INFO in RapidConfig::loadParentKinematics : pt range not defined by user.
+                                            Will take default for detector geometry.
+INFO in RapidAcceptanceLHCb::getDefaultPtRange : Getting pT range for LHCb geometry.
+                                                 Range is 0 - 100 GeV.
+INFO in RapidConfig::loadParentKinematics : pseudorapidity range not defined by user.
+                                            Will take default for detector geometry.
+INFO in RapidAcceptanceLHCb::getDefaultEtaRange : Getting eta range for LHCb geometry.
+                                                  Range is 1.0 - 6.0.
+INFO in RapidDecay::setParentKinematics : setting kinematics of the parent.
+INFO in RapidDecay::setPVntracks : setting PVNTRACKS.
+INFO in RapidConfig::loadPID 
+INFO in RapidConfig::loadPID : loading root file LHCb_K_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Pi_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Mu_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_P_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID 
+INFO in RapidConfig::loadPID : loading root file LHCb_K_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Pi_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Mu_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_P_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidHistWriter::setupTree : tree will be saved to file: XtoDDbG_B_invisible-VVS-S-Dst0b-noFSR_tree.root
+                                     This will slow down generation.
+INFO in RapidBeamData::loadData : loading beam data from /Users/pnaik/work/RapidSim/RapidSim/config/beam.dat
+INFO in RapidHistWriter::save : saving histograms to file: XtoDDbG_B_invisible-VVS-S-Dst0b-noFSR_hists.root
+INFO in rapidSim : Generated 400000
+INFO in rapidSim : Selected 135154
+INFO in rapidSim : 0.279 seconds to initialise.
+INFO in rapidSim : 311.621 seconds to generate.

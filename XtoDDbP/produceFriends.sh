@@ -1,0 +1,11 @@
+root -b -l -q 'makeFriend.C("XtoDDbP_tree.root","XtoDDbP_tree_friend.root",200000)'
+root -b -l -q 'makeFriend.C("XtoDDbP-VVS-S-Dst0_tree.root","XtoDDbP-VVS-S-Dst0_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP-VVS-S-Dst0b_tree.root","XtoDDbP-VVS-S-Dst0b_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP-VVS-D-Dst0_tree.root","XtoDDbP-VVS-D-Dst0_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP-VVS-D-Dst0b_tree.root","XtoDDbP-VVS-D-Dst0b_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP-model-S_tree.root","XtoDDbP-model-S_tree_friend.root",200000)'
+root -b -l -q 'makeFriend.C("XtoDDbP-model-D_tree.root","XtoDDbP-model-D_tree_friend.root",200000)'
+hadd -f hadd_XtoDDbP-VVS-S_tree_friend.root XtoDDbP-VVS-S-Dst0_tree_friend.root XtoDDbP-VVS-S-Dst0b_tree_friend.root
+hadd -f hadd_XtoDDbP-VVS-D_tree_friend.root XtoDDbP-VVS-D-Dst0_tree_friend.root XtoDDbP-VVS-D-Dst0b_tree_friend.root
+hadd -f hadd_XtoDDbP-VVS_tree_friend.root hadd_XtoDDbP-VVS-S_tree_friend.root hadd_XtoDDbP-VVS-D_tree_friend.root
+hadd -f hadd_XtoDDbP-model_tree_friend.root XtoDDbP-model-S_tree_friend.root XtoDDbP-model-D_tree_friend.root

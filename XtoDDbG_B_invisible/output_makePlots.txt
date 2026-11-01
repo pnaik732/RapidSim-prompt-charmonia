@@ -1,0 +1,20 @@
+
+Processing makePlots.C("XtoDDbG_B_invisible_tree.root","RapidSim_XtoDDbG_B_invisible_PHSP_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.996413
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.996332
+
+Processing makePlots.C("XtoDDbG_B_invisible-VVS-S-Dst0_tree.root","RapidSim_XtoDDbG_B_invisible-VVS-S-Dst0_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.969777
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.967931
+
+Processing makePlots.C("XtoDDbG_B_invisible-VVS-S-Dst0b_tree.root","RapidSim_XtoDDbG_B_invisible-VVS-S-Dst0b_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.969664
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.9677
+
+Processing makePlots.C("XtoDDbG_B_invisible-VVS-D-Dst0_tree.root","RapidSim_XtoDDbG_B_invisible-VVS-D-Dst0_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.979819
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.979535
+
+Processing makePlots.C("XtoDDbG_B_invisible-VVS-D-Dst0b_tree.root","RapidSim_XtoDDbG_B_invisible-VVS-D-Dst0b_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.97999
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.979703

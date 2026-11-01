@@ -1,0 +1,4 @@
+
+Processing makePlots.C("psiToDDb_B_tree.root","RapidSim_psiToDDb_B_VSS_plots.pdf")...
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.99853
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.998259

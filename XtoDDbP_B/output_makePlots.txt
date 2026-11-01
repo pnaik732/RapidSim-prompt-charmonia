@@ -1,0 +1,154 @@
+
+Processing makePlots.C("XtoDDbP_B_tree.root","RapidSim_XtoDDbP_B_PHSP_plots.pdf")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.977822
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.9773
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.968607
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.950411
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.967176
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.948756
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.949373
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.969686
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.979497
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.947702
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.96829
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.979129
+
+Processing makePlots.C("XtoDDbP_B-model-S_tree.root","RapidSim_XtoDDbP_B_Model_S_plots.pdf")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.884464
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.886373
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.656473
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.628076
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.666762
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.63697
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.617427
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.646656
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.963782
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.626027
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.657958
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.9605
+
+Processing makePlots.C("XtoDDbP_B-model-D_tree.root","RapidSim_XtoDDbP_B_Model_D_plots.pdf")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.970485
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.970155
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.922384
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.907807
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.912552
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.896557
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.899503
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.926587
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.976463
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.889473
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.915628
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.974766
+
+Processing makePlots.C("XtoDDbP_B-VVS-S-Dst0_tree.root","RapidSim_XtoDDbP_B-VVS-S-Dst0_plots.pdf")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.978347
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.976576
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.965869
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.9362
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.964059
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.933271
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.953075
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.973353
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.96098
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.950141
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.972244
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.958424
+
+Processing makePlots.C("XtoDDbP_B-VVS-S-Dst0b_tree.root","RapidSim_XtoDDbP_B-VVS-S-Dst0b_plots.pdf")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.750586
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.747
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.267365
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.227545
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.282392
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.241644
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.189934
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.222547
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.960482
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.201956
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.238819
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.957743
+
+Processing makePlots.C("XtoDDbP_B-VVS-D-Dst0_tree.root","RapidSim_XtoDDbP_B-VVS-D-Dst0_plots.pdf")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.968532
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.967543
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.935425
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.897386
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.934347
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.895596
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.915654
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.944682
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.947039
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.914268
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.94408
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.945607
+
+Processing makePlots.C("XtoDDbP_B-VVS-D-Dst0b_tree.root","RapidSim_XtoDDbP_B-VVS-D-Dst0b_plots.pdf")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.808375
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.80247
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.441118
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.385019
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.436666
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.377796
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.357265
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.393876
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.944897
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.352249
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.386104
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.943647
+
+Processing makePlots.C("XtoDDbP_B-model-S_tree.root","RapidSim_XtoDDbP_B_Model_plots.pdf","XtoDDbP_B-model-D_tree.root")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.92684
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.927575
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.787608
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.765861
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.787808
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.76463
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.755889
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.783903
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.969996
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.75509
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.784016
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.967477
+
+Processing makePlots.C("XtoDDbP_B-VVS-S-Dst0_tree.root","RapidSim_XtoDDbP_B-VVS-S_plots.pdf","XtoDDbP_B-VVS-S-Dst0b_tree.root")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.89288
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.894296
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.654045
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.622558
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.663966
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.631661
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.612939
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.640985
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.960731
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.621547
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.652323
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.958083
+
+Processing makePlots.C("XtoDDbP_B-VVS-D-Dst0_tree.root","RapidSim_XtoDDbP_B-VVS-D_plots.pdf","XtoDDbP_B-VVS-D-Dst0b_tree.root")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.880913
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.87601
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.680909
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.62509
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.676837
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.617849
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.62834
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.652109
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.945974
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.623692
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.64495
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.944634
+
+Processing makePlots.C("XtoDDbP_B-VVS-S-Dst0_tree.root","RapidSim_XtoDDbP_B-VVS_plots.pdf","XtoDDbP_B-VVS-S-Dst0b_tree.root","XtoDDbP_B-VVS-D-Dst0_tree.root","XtoDDbP_B-VVS-D-Dst0b_tree.root")...
+D0_bachKp_costheta_REST_X_TRUE:D0_bachKp_costheta_REST_X correlation: 0.887121
+D0_bachKp_theta_REST_X_TRUE:D0_bachKp_theta_REST_X correlation: 0.885586
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X correlation: 0.665629
+D0_bachKp_costheta_REST_D0_D0B:D0_bachKp_costheta_REST_X_TRUE correlation: 0.622893
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X correlation: 0.669042
+D0_bachKp_theta_REST_D0_D0B:D0_bachKp_theta_REST_X_TRUE correlation: 0.624395
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X correlation: 0.619173
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_X_TRUE correlation: 0.6449
+D0_bachKp_costheta_REST_D0_D0B_TRUE:D0_bachKp_costheta_REST_D0_D0B correlation: 0.954415
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X correlation: 0.621704
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_X_TRUE correlation: 0.647622
+D0_bachKp_theta_REST_D0_D0B_TRUE:D0_bachKp_theta_REST_D0_D0B correlation: 0.952457

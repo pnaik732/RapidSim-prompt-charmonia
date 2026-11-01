@@ -1,0 +1,22 @@
+noPhotos
+
+Decay B+
+1.00	X_1(3872)	K+	SVS;
+Enddecay
+Decay X_1(3872)
+1.00	D*0	anti-D0	VVS_PWAVE       1.0 0.0 0.0 0.0 0.0 0.0;;
+Enddecay
+Decay D*0
+1.00	D0	pi0	VSS;
+Enddecay
+Decay anti-D0
+1.00	K+	pi-	PHSP;
+Enddecay
+Decay D0
+1.00	K-	pi+	PHSP;
+Enddecay
+Decay pi0
+1.00	gamma	gamma	PHSP;
+Enddecay
+End
+

@@ -1,0 +1,17 @@
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible_tree.root","XtoDDbP_B_invisible_tree_friend.root",200000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-S-Dst0_tree.root","XtoDDbP_B_invisible-VVS-S-Dst0_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-S-Dst0b_tree.root","XtoDDbP_B_invisible-VVS-S-Dst0b_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-D-Dst0_tree.root","XtoDDbP_B_invisible-VVS-D-Dst0_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-D-Dst0b_tree.root","XtoDDbP_B_invisible-VVS-D-Dst0b_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-model-S_tree.root","XtoDDbP_B_invisible-model-S_tree_friend.root",200000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-model-D_tree.root","XtoDDbP_B_invisible-model-D_tree_friend.root",200000)'
+hadd -f hadd_XtoDDbP_B_invisible-VVS-S_tree_friend.root XtoDDbP_B_invisible-VVS-S-Dst0_tree_friend.root XtoDDbP_B_invisible-VVS-S-Dst0b_tree_friend.root  
+hadd -f hadd_XtoDDbP_B_invisible-VVS-D_tree_friend.root XtoDDbP_B_invisible-VVS-D-Dst0_tree_friend.root XtoDDbP_B_invisible-VVS-D-Dst0b_tree_friend.root  
+hadd -f hadd_XtoDDbP_B_invisible-VVS_tree_friend.root hadd_XtoDDbP_B_invisible-VVS-S_tree_friend.root hadd_XtoDDbP_B_invisible-VVS-D_tree_friend.root
+hadd -f hadd_XtoDDbP_B_invisible-model_tree_friend.root XtoDDbP_B_invisible-model-S_tree_friend.root XtoDDbP_B_invisible-model-D_tree_friend.root
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-S-Dst0-noFSR_tree.root","XtoDDbP_B_invisible-VVS-S-Dst0-noFSR_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-S-Dst0b-noFSR_tree.root","XtoDDbP_B_invisible-VVS-S-Dst0b-noFSR_tree_friend.root",100000)'
+hadd -f hadd_XtoDDbP_B_invisible-VVS-S-noFSR_tree_friend.root XtoDDbP_B_invisible-VVS-S-Dst0-noFSR_tree_friend.root XtoDDbP_B_invisible-VVS-S-Dst0b-noFSR_tree_friend.root  
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-S-Dst0-8TeV_tree.root","XtoDDbP_B_invisible-VVS-S-Dst0-8TeV_tree_friend.root",100000)'
+root -b -l -q 'makeFriend.C("XtoDDbP_B_invisible-VVS-S-Dst0b-8TeV_tree.root","XtoDDbP_B_invisible-VVS-S-Dst0b-8TeV_tree_friend.root",100000)'
+hadd -f hadd_XtoDDbP_B_invisible-VVS-S-8TeV_tree_friend.root XtoDDbP_B_invisible-VVS-S-Dst0-8TeV_tree_friend.root XtoDDbP_B_invisible-VVS-S-Dst0b-8TeV_tree_friend.root  
