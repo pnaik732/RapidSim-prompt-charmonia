@@ -1,0 +1,139 @@
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+INFO in RapidConfig::loadDecay : loading decay descriptor from file: DDbBackground_03.decay
+INFO in RapidConfig::loadDecay : Decay descriptor is:
+                                 bkg(3730) -> {D0 -> K- pi+} {D0b -> K+ pi-}
+INFO in RapidParticleData::loadData : loading particle data from /Users/pnaik/work/RapidSim/RapidSim/config/particles.dat
+INFO in RapidConfig::loadDecay : Found sub-decay:
+                                 D0 -> K- pi+
+INFO in RapidConfig::loadDecay : Found sub-decay:
+                                 D0b -> K+ pi-
+INFO in RapidConfig::loadDecay : Parent has charm.
+                                 setting c-quark kinematics.
+INFO in RapidConfig::loadConfig : attempting to load configuration from file: DDbBackground_03.config
+INFO in RapidConfig::configGlobal : setting detector geometry type to LHCb.
+INFO in RapidConfig::configGlobal : setting acceptance type to AllIn.
+INFO in RapidConfig::configGlobal : pp CoM energy set to be 14 TeV.
+INFO in RapidConfig::configGlobal : parent flavour forced to be x.
+INFO in RapidConfig::configGlobal : will use the following parameters for all decaying particles:
+                                    M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, Mcorr, vtxX, vtxY, vtxZ, origX, origY, origZ.
+INFO in RapidConfig::configGlobal : will use the following parameters for all stable particles:
+                                    MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, eta, phi, y, gamma, beta, ProbNNpi, ProbNNk.
+INFO in RapidConfig::configGlobal : will use the following parameters for all two-body daughter combinations:
+                                    M, M2, MT, E, ET, P, PX, PY, PZ, PT, IP, SIGMAIP, MINIP, SIGMAMINIP, FD, eta, phi, y, gamma, beta, Mcorr.
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M2
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_M2_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_MT
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_MT_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_ET
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_ET_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_FD
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_FD_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_eta
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_eta_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_phi
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_phi_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_y
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_y_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_gamma
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_gamma_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_beta
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_beta_TRUE
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_Mcorr
+INFO in RapidConfig::configGlobal : adding parameter D0_D0B_Mcorr_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_costheta_REST_D0
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_theta_REST_D0
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_costheta_REST_D0B
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_theta_REST_D0B
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_costheta_REST_D0_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Km_D0B_theta_REST_D0_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_costheta_REST_D0B_TRUE
+INFO in RapidConfig::configGlobal : adding parameter Kp_D0_theta_REST_D0B_TRUE
+INFO in RapidConfig::configGlobal : adding parameter bkgmass
+INFO in RapidConfig::configGlobal : adding parameter bkgmass_true
+INFO in RapidConfig::configGlobal : adding cut bkgmass_true < 3.880
+INFO in RapidConfig::configGlobal : adding cut 3.730 < bkgmass_true
+INFO in RapidConfig::configGlobal : minimum resonance width to be generated set to 0.0001 GeV.
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 3 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 3 (category: LHCbGenericIP)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 4 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 4 (category: LHCbGenericIP)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 5 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 5 (category: LHCbGenericIP)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 6 (category: LHCbGeneric)
+INFO in RapidConfig::setSmearing : setting smearing functions for particle 6 (category: LHCbGenericIP)
+INFO in RapidConfig::loadConfig : finished loading configuration.
+INFO in RapidDecay::setup : Particle summary follows:
+index	label		   ID		mass (GeV/c^2)	parent		# children	children
+  0	BKG            	9910441		3.829660	---            	 2		D0, D0B        
+  1	D0             	   421		1.864830	BKG            	 2		Km, pip        
+  2	D0B            	  -421		1.864830	BKG            	 2		Kp, pim        
+  3	Km             	  -321		0.493677	D0             	 0		---            
+  4	pip            	   211		0.139570	D0             	 0		---            
+  5	Kp             	   321		0.493677	D0B            	 0		---            
+  6	pim            	  -211		0.139570	D0B            	 0		---            
+INFO in RapidConfig::loadParentKinematics : pt range not defined by user.
+                                            Will take default for detector geometry.
+INFO in RapidAcceptanceLHCb::getDefaultPtRange : Getting pT range for LHCb geometry.
+                                                 Range is 0 - 100 GeV.
+INFO in RapidConfig::loadParentKinematics : pseudorapidity range not defined by user.
+                                            Will take default for detector geometry.
+INFO in RapidAcceptanceLHCb::getDefaultEtaRange : Getting eta range for LHCb geometry.
+                                                  Range is 1.0 - 6.0.
+INFO in RapidDecay::setParentKinematics : setting kinematics of the parent.
+INFO in RapidDecay::setPVntracks : setting PVNTRACKS.
+INFO in RapidConfig::loadPID 
+INFO in RapidConfig::loadPID : loading root file LHCb_K_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Pi_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Mu_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_P_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID 
+INFO in RapidConfig::loadPID : loading root file LHCb_K_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Pi_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_Mu_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidConfig::loadPID : loading root file LHCb_P_PID.root
+INFO in RapidConfig::loadPID : loading histogram ProbNNk
+INFO in RapidConfig::loadPID : loading histogram ProbNNmu
+INFO in RapidConfig::loadPID : loading histogram ProbNNpi
+INFO in RapidConfig::loadPID : loading histogram ProbNNp
+INFO in RapidHistWriter::setupTree : tree will be saved to file: DDbBackground_03_tree.root
+                                     This will slow down generation.
+INFO in RapidBeamData::loadData : loading beam data from /Users/pnaik/work/RapidSim/RapidSim/config/beam.dat
+INFO in RapidHistWriter::save : saving histograms to file: DDbBackground_03_hists.root
+INFO in rapidSim : Generated 800000
+INFO in rapidSim : Selected 239395
+INFO in rapidSim : 0.182367 seconds to initialise.
+INFO in rapidSim : 58.0211 seconds to generate.

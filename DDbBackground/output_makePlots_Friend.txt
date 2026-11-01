@@ -1,0 +1,46 @@
+
+Processing makePlots_Friend.C("hadd_DDbBackground_tree_friend.root","RapidSim_DDbBackground_plots_Friend.pdf")...
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_D_X correlation: 0.04177
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_Db_Lab correlation: 0.973499
+TRUE_DmDb_pT_D_X:TRUE_DmDb_pT_Db_Lab correlation: 0.0414684
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_Db_X correlation: 0.04177
+TRUE_DmDb_pT_D_X:TRUE_DmDb_pT_Db_X correlation: 1
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_pT_Db_X correlation: 0.0414684
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_DDb correlation: 0.784736
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_DDb correlation: 0.0263698
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_DDb correlation: 0.784708
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_DDb correlation: 0.0263698
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_Lab correlation: 0.0143002
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_Lab correlation: 0.357102
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_Lab correlation: 0.0136232
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_Lab correlation: 0.357102
+TRUE_DmDb_p_DDb:TRUE_DmDb_p_Lab correlation: 0.269897
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_X correlation: 0.784736
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_X correlation: 0.0263698
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_X correlation: 0.784708
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_X correlation: 0.0263698
+TRUE_DmDb_p_DDb:TRUE_DmDb_p_X correlation: 1
+TRUE_DmDb_p_Lab:TRUE_DmDb_p_X correlation: 0.269897
+
+Processing makePlots_Friend.C("hadd_DDbBackgroundMore_tree_friend.root","RapidSim_DDbBackgroundMore_plots_Friend.pdf")...
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_D_X correlation: 0.0221712
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_Db_Lab correlation: 0.925607
+TRUE_DmDb_pT_D_X:TRUE_DmDb_pT_Db_Lab correlation: 0.0222155
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_pT_Db_X correlation: 0.0221712
+TRUE_DmDb_pT_D_X:TRUE_DmDb_pT_Db_X correlation: 1
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_pT_Db_X correlation: 0.0222155
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_DDb correlation: 0.762097
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_DDb correlation: 0.00310698
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_DDb correlation: 0.762146
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_DDb correlation: 0.00310698
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_Lab correlation: -0.0411715
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_Lab correlation: 0.321197
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_Lab correlation: -0.0413349
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_Lab correlation: 0.321197
+TRUE_DmDb_p_DDb:TRUE_DmDb_p_Lab correlation: 0.229963
+TRUE_DmDb_pT_D_Lab:TRUE_DmDb_p_X correlation: 0.762097
+TRUE_DmDb_pT_D_X:TRUE_DmDb_p_X correlation: 0.00310698
+TRUE_DmDb_pT_Db_Lab:TRUE_DmDb_p_X correlation: 0.762146
+TRUE_DmDb_pT_Db_X:TRUE_DmDb_p_X correlation: 0.00310698
+TRUE_DmDb_p_DDb:TRUE_DmDb_p_X correlation: 1
+TRUE_DmDb_p_Lab:TRUE_DmDb_p_X correlation: 0.229963
