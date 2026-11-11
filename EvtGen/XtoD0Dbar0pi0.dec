@@ -1,0 +1,75 @@
+# for testing
+#IncludeBirthFactor X_1(3872) no
+#IncludeDecayFactor X_1(3872) no
+#IncludeBirthFactor D*0 no
+#IncludeDecayFactor D*0 no
+#IncludeBirthFactor anti-D*0 no
+#IncludeDecayFactor anti-D*0 no
+#IncludeBirthFactor D0 no
+#IncludeDecayFactor D0 no
+#IncludeBirthFactor anti-D0 no
+#IncludeDecayFactor anti-D0 no
+# probably should comment this out as it shouldn't be needed
+BlattWeisskopf X_1(3872) 1.5
+BlattWeisskopf D*0 1.5
+BlattWeisskopf anti-D*0 1.5
+ChangeMassMin D*0 0.001
+ChangeMassMin anti-D*0 0.001
+#Particle D*0 2.00685 0.000043
+#Particle anti-D*0 2.00685 0.000043
+Particle D*0 2.00685 0.000026
+Particle anti-D*0 2.00685 0.000026
+
+# hacked evt.pdl to insert 2018 PDG masses and widths
+# hacked evt.pdl to add myX_1(3872)	
+# FYI attempts to use upper limit for D* width instead of physical value in hacked evt.pdl
+# for testing purposes only (e.g. Comparison with qft++)
+
+Decay B+
+1.0000 X_1(3872) K+ SVS;
+Enddecay
+
+Decay X_1(3872)
+# PDG says >32% DDbarpi0 of total, of which D*Dbar >24% of total; so presume 75% of decay through D*D
+#1.0000	D0	 pi0	 anti-D0	PHSP; # (MC MADE)
+#1.0000	D0	 gamma   anti-D0    PHSP; # (MC MADE)
+#1.0000	D0	 pi0	 anti-D0	X_D0D0BPI0	1.0 0.0 0.0 0.0 0.0 0.0 1.0 1.0 1.0; # S-wave only, unpolarized / default (unpolarized MC MADE)
+#1.0000	D0	 pi0	 anti-D0	X_D0D0BPI0	0.0 0.0 0.0 0.0 1.0 0.0 1.0 1.0 1.0; # D-wave only, unpolarized / default (unpolarized MC MADE)
+#1.0000	D0	 pi0	 anti-D0	X_D0D0BPI0	1.0 0.0 0.0 0.0 0.0 0.0 0.5 0.5 2.0; # S-wave only, 67% polarized (MC MADE)
+#1.0000	D0	 pi0	 anti-D0	X_D0D0BPI0	1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 3.0; # S-wave only, polarized (MC MADE)
+#1.0000	D0	 pi0	 anti-D0	X_D0D0BPI0	0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 3.0; # D-wave only, polarized (MC MADE)
+0.5000	D*0	 anti-D0	        VVS_PWAVE	1.0 0.0 0.0 0.0 0.0 0.0; # S-wave only
+#0.5000	D*0	 anti-D0	        VVS_PWAVE	0.0 0.0 0.0 0.0 1.0 0.0; # D-wave only
+0.5000	anti-D*0  D0	        VVS_PWAVE	1.0 0.0 0.0 0.0 0.0 0.0; # S-wave only
+#0.5000	anti-D*0  D0	        VVS_PWAVE	0.0 0.0 0.0 0.0 1.0 0.0; # D-wave only
+Enddecay
+
+Decay D*0
+#1.0000  D0	pi0	 VSS; #[Reconstructed PDG2011]
+1.0000 D0      gamma   VSP_PWAVE; #[Reconstructed PDG2011]
+#0.6190 D0	pi0	 VSS; #[Reconstructed PDG2011]
+#0.3810 D0      gamma   VSP_PWAVE; #[Reconstructed PDG2011]
+Enddecay
+
+Decay anti-D*0
+#1.0000	   anti-D0  pi0	           VSS;
+1.0000    anti-D0  gamma          VSP_PWAVE;
+#0.6190    anti-D0  pi0            VSS;
+#0.3810    anti-D0  gamma          VSP_PWAVE;
+Enddecay
+
+Decay D0
+1.0000	K_S0	pi0		PHSP; #[Reconstructed PDG2011]
+Enddecay
+
+Decay anti-D0
+1.0000	K+	K-		PHSP; #[Reconstructed PDG2011]
+Enddecay
+
+# for the plot of the amplitude model, make an alias and decay it to PHSP, then plug it in later
+Decay myX_1(3872)
+1.0 	D0	pi0	anti-D0		PHSP;
+Enddecay
+
+End
+
