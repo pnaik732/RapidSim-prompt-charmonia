@@ -1,0 +1,8 @@
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_PHSP.root","DDbP_PHSP_BtoXK_plots.pdf",0)'
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_GAMMA.root","DDbG_PHSP_BtoXK_plots.pdf",0)'
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_S.root","DDbP_S_BtoXK_plots.pdf",0)'
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_D.root","DDbP_D_BtoXK_plots.pdf",0)'
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_VVSPWAVE_S_pi0.root","DDbP_S_VVSP_BtoXK_plots.pdf",0)'
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_VVSPWAVE_D_pi0.root","DDbP_D_VVSP_BtoXK_plots.pdf",0)'
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_VVSPWAVE_S_gamma.root","DDbG_S_VVSP_BtoXK_plots.pdf",0)'
+root -b -l -q 'makePlots.C("XtoD0Dbar0pi0_BtoXK_VVSPWAVE_D_gamma.root","DDbG_D_VVSP_BtoXK_plots.pdf",0)'
