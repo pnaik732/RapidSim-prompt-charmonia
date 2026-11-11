@@ -1,0 +1,3 @@
+Import('*')
+
+env.Program('XtoD0Dbar0pi0', ['XtoD0Dbar0pi0.cpp'])
