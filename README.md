@@ -15,7 +15,7 @@ These changed and new files have been uploaded to this git repository (in the Ra
 
 The X(3872) to D0 anti-D0 pi0 decay model used in the paper, and files used to test the model, can be found in the EvtGen directory of the repository. I used EvtGen R01-07-00.
 
-All output .root and .pdf files after running RapidSim and/or EvtGen have been removed to limit the size of this git repository. However log files still remain.
+All output .root and .pdf files after running RapidSim and/or EvtGen have been removed to limit the size of this git repository. However log files still remain, where available.
 
 RapidSim page: https://github.com/lhcb/RapidSim <br>
 EvtGen page (if needed, now "included" with RapidSim): https://evtgen.hepforge.org/
